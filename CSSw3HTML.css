@@ -1,0 +1,46 @@
+h1{ color:blue; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;text-align: center; border-style: solid; border-width: 16px;} 
+
+body{background-image: url(images/tkrbackground.png)}
+
+.highlight{ 
+    background-color:black;
+}
+
+.class{ padding: 10px; border:solid 5 px black; margin:20px;text-align: center;}
+
+
+.header {
+    background:rgb(173, 19, 173);
+    padding:2 em;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{ 
+    background:yellow
+    padding 50%;
+    text-align:center
+}
+
+.footer{
+    background:rgb(173, 19, 173);
+    padding:5%
+}
+
+.flex-container{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container> .content{
+    padding: 50px;
+}
+
+.flex-container> .sidebar{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
