@@ -1,0 +1,100 @@
+
+     body{
+        /* If you want to use a background image, you will need to set the url to the path of the image */
+        background-image: url(./images/50sModKitchen3.jpg);
+        background-position: center;
+        /* Reset styles- takeaway any browser defaults, we will custome or own spacing */
+        margin: 0;
+        padding: 0;
+        /* Fonts with multi-words need to be surronded by """ but single words i.e Arial fonts do not need ""- fonts go from most niche(unlikely to be on the isers's computer) */
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* text color */
+        color: rgba(149, 79, 133, 0.878);
+
+     }
+
+     header{
+        background-color: black;
+        color: rgba(149, 79, 133, 0.878);
+        /* space around the text */
+        padding:10px;
+        /* space outside of the red background area  */
+        margin: 0%;
+        /* For rounded corners */
+        border-radius: 1%;
+        /* to center text; if is doesn't center your test, you may wneed to add this to the partent/container element */
+        text-align: center;
+     }
+
+     div{
+      color: black;
+      font-size: xx-large;
+      font-weight: bolder;
+     }
+     main{ 
+      color: rgba(149, 79, 133, 0.878);
+      text-align: center;
+      
+      font-weight: 500;
+      font-size: large;
+
+     }
+      /* the parent/container for our flex layout  */
+     .flex-container{ 
+        /* enable the flex layout for our recipe area  */
+        display: flex;
+
+        /* evenly arrange the items */
+        justify-content: space-between;
+
+        /* by default our columns will be placed horizonally across the screen */
+        flex-direction: row;
+
+        margin: 20px;
+     }
+     
+     /* this custom css class will aplly to each of the recipe details colums */
+    .column{ 
+        background-color: rgba(155, 201, 201);
+        /* the colums will grow to fit the availabe space  */
+        flex:auto;
+        /* rounded corners */
+        border-radius:10px; 
+
+        padding: 10px;
+
+        text-align: center;}
+
+    
+
+        /* lets just add margin on the left between colums  */
+        .column + .column { 
+            margin-left: 20px;
+        }
+      
+
+
+
+     /* this is a custom CSS class that we will use to resize our images */
+        .img-recipe{ 
+            width: 95%; 
+            max-width: 400px;
+            height: 500px;
+            /* This allows the images to resize nicley */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        @media (max-width:800px){
+         .flex-container{ 
+            /* Change the direction to column so our recipe details will stack  */
+            flex-direction: column;
+         }
+            /*  lets just add margin on the left between colums  */
+            .column + .column{ 
+/* setting the margin to 0-you do not need to sepecify the unit of measurment-percentage,pixel, etc */
+                margin-left: 10px;
+                /* add spacing between the boxes vertically */
+                margin-top: 20px;
+            }
+         
+        }
