@@ -1,0 +1,66 @@
+body{ 
+    background-color: rgb(145, 30, 145);
+    color:whitesmoke;
+    margin: 0;
+    padding:0;
+}
+
+/* navigation styles */
+/* decrotive image styles */
+
+.img-decrative{
+    width: 100%;
+}
+
+/* header Styles  */
+header{ 
+    background-color: whitesmoke;
+    color:rgb(145, 30, 145);
+    padding: 20px;
+    text-align: center;
+}
+
+/* navigation stles - these styles will only apply to anchor tags that are contained within a nav section ( the style will not apply to anchor tags in other areas of the page */
+
+nav a {
+    /* remove the underline under links  */
+    text-decoration: none;
+    padding: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: plum;
+}
+
+h2{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flex-column{
+    text-align: center;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin: 10px;
+    max-width: 400px;
+
+}
+
+form{
+    margin:20px;
+    max-width: 400px;
+    border-radius: 20px;
+    
+}
+input, label{
+    padding: 10px;
+}
