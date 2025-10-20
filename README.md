@@ -1,4 +1,5 @@
-Hello, my name is Timkia and I created an HTML and CSS file showcasing my favorite holiday recipes. 
+Hi, 
+I am currently working on a portfolio site. Check it out and let me know your thoughts! 
 
-recipe.css
-Recipe Homepage Temp.html
+Thanks, 
+TKR 
