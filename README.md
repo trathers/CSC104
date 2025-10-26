@@ -1,5 +1,4 @@
-Hi, 
-I am currently working on a portfolio site. Check it out and let me know your thoughts! 
+In this file, you will find the final project for CSC104. The project is a portfolio site created from scratch by me, utilizing HTML5 and CSS. The following files will be attached to this section, titled "Final Project Portfolio." 
 
 portfilioindex.html
 aboutmeport.html
