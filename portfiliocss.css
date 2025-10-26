@@ -8,7 +8,7 @@ body{
 /* navigation styles */
 /* decrotive image styles */
 
-.img-decrative{
+.img-project{
     width: 100%;
 }
 
@@ -62,5 +62,56 @@ form{
     
 }
 input, label{
-    padding: 10px;
+    padding: 6px;
 }
+
+button{ 
+    padding: 8px;
+    background-color: whitesmoke;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+button:hover{
+    color: rgb(162, 123, 197);
+}
+
+.img-decrative{
+    border-radius: 50%;
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+.about-me{
+    font-size: xx-large;
+    font-weight: 100;
+    
+}
+
+.details{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.cta-btn{
+    background-color: #954f85;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: backgrond 0.3s ease;
+    /* Figure this out on my own thanks to your teaching!  */
+    display:flexbox
+}
+.about-btn{
+margin: 30px;
+padding: 20px;
+display: flex;
+}
+
+/* I now see why you said centering is difficult! I tried my best to center this button and the image on the about page */

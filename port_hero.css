@@ -1,0 +1,50 @@
+.hero{
+    background: url(images/tkrbackground.png) center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+
+}
+/* Use resorces (chatgpt) to help with understing how to make this happen but did customize on my own */
+.hero-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.hero-content{
+    text-align: left;
+    padding: 50px;
+    margin: 20px;
+}
+
+.hero-button { 
+    margin-right: 40px;
+}
+
+.cta-btn{
+    background-color: #954f85;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: backgrond 0.3s ease;
+    /* Figure this out on my own thanks to your teaching!  */
+    display: flex;
+}
+
+.cta-btn:hover{
+    background-color: #b26fa5;
+}
+
+.img-decrative{
+    border-radius: 50%;
+}
+
